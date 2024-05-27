@@ -1,0 +1,17 @@
+.items {
+  background-color: #d2d2d2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+
+}
+
+.items > p {
+  /* color: white; */
+  font-weight: 500;
+  font-size: 1rem;
+}

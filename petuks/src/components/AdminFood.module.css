@@ -1,0 +1,46 @@
+.fcard {
+  width: 15em;
+  height: 16em;
+  cursor: pointer;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 20px;
+}
+.fimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 68%;
+}
+
+.fimg img {
+  width: 14em;
+  height: 90%;
+  object-fit: contain;
+  margin: 5px;
+}
+
+.fde {
+  display: flex;
+  justify-content: space-between;
+}
+.fde > p {
+  color: #f03232;
+  font-weight: 500;
+}
+
+
+.fWrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.fWrapper > p:first-child {
+  font-weight: 600;
+}
+
+.fWrapper > p:nth-child(2) {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #333;
+}

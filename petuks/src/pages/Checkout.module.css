@@ -1,0 +1,177 @@
+.ItemWrapper {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70%;
+  overflow-y: auto;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 25px 0 25px;
+}
+.price > p {
+  font-weight: 600;
+}
+.price > p:last-child {
+  color: #f03232;
+  font-size: 1.2rem;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address input {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.subInput {
+  display: flex;
+}
+.subInput input {
+  width: 170px;
+}
+
+.roadn {
+  margin-right: 60px;
+}
+
+.address span {
+  color: #f03232;
+  font-weight: 600;
+}
+
+.cashOn {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 95%;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+
+.cashOn > label {
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.cashOn > img {
+  margin-left: 11px;
+  width: 75px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.bkashOn {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 95%;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+}
+
+.bkashOn > label {
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.bkashOn > img {
+  width: 100px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.pay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bkashInfo input {
+  width: 240px;
+  height: 40px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.bkashInfo span {
+  color: #f03232;
+  font-weight: 600;
+}
+
+.bkashInfo div {
+  width: 240px;
+  height: 35px;
+  background-color: #f03232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+
+.success{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+}
+
+.success > img{
+  width: 100px;
+  -webkit-user-drag: none;
+}
+.placebtn{
+  display: flex;
+  justify-content: center;
+}
+.checkoutBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 640px;
+  height: 40px;
+  background-color: #f03232;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.term {
+  margin: 0 auto;
+  width: 640px;
+
+  margin-bottom: 30px;
+}
+
+.term > p{
+  font-size: 13px;
+  text-align: center;
+}
+
+.in input {
+  border: 1px solid #444;
+}

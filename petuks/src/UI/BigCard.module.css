@@ -1,0 +1,10 @@
+.container {
+  height: 27em;
+  width: 53em;
+  background: #f03232;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+}

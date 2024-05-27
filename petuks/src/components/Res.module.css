@@ -1,0 +1,57 @@
+.fcard {
+  width: 15em;
+  height: 16em;
+  cursor: pointer;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.fimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 68%;
+}
+
+.fimg img {
+  width: 14em;
+  height: 95%;
+  object-fit: cover;
+  margin: 5px;
+
+}
+
+.fde {
+  display: flex;
+}
+.fde img {
+    width: 1.3em;
+    height: 1.3em;
+
+    margin-right: 10px;
+
+}
+.fde > p > span {
+  color: #f03232;
+  font-weight: 500;
+}
+
+
+.fWrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* .fWrapper > p:first-child {
+  font-weight: 600;
+} */
+
+.resName{
+  font-weight: 600;
+}
+
+.fWrapper > p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+
+}

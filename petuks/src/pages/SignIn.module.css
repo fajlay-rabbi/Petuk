@@ -1,0 +1,169 @@
+.wrapper {
+  /* background-color: #F7DAB1; */
+  background: #f03232;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  height: 27em;
+  width: 53em;
+  background: #f03232;
+  margin: 0 auto;
+  /* margin-top: 7.5em; */
+  border-radius: 10px;
+
+  box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ch1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+
+.ch1otp {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.title {
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.inputLabel {
+  color: white;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.fpass {
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-left: 146px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.fpassotp {
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+
+.inputEmail,
+.inputPass {
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  width: 260px;
+  height: 46px;
+  padding-left: 12px;
+  font-size: 0.9rem;
+  border: 1px solid #000;
+}
+
+.inputEmail {
+  margin-bottom: 15px;
+}
+
+.inputPass {
+  margin-bottom: 5px;
+}
+
+.acc {
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.accSignUP{
+  color: #ffb945;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.submitbtn {
+  outline: none;
+  border: none;
+  background-color: #ffb945;
+  color: #000;
+  font-weight: 600;
+  font-size: 1em;
+  height: 2.5em;
+  width: 160px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  margin-left: 45px;
+  cursor: pointer;
+}
+
+.ch2 img {
+  height: 27.1em;
+  width: 160px;
+}
+
+.ch3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ch3 img {
+  width: 14em;
+  margin-top: 30px;
+  margin-bottom: -15px;
+}
+
+.ch3Txt1 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.ch3Txt2 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.err{
+  color: wheat;
+  padding: 5px;
+  background-color: rgb(201, 115, 115);
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+

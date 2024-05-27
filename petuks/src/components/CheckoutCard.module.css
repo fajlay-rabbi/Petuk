@@ -1,0 +1,35 @@
+.ItemDetails {
+  background-color: rgb(254, 254, 254);
+  width: 650px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin: 20px;
+}
+
+.title > p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
